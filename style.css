@@ -1,0 +1,87 @@
+body{
+    background-color: #638a79;
+    background-image: url("img/body-bg.png");
+    background-repeat: repeat-x;
+    background-position: fixed;
+    font: 13px Arial;
+    color: #333;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+	width: 840px;
+	background: #FFF;
+	margin: 100px auto 0 auto;
+
+}
+.content .content-top {
+	height: 12px;
+	background: url("img/content-bg.png");
+	background-position: 0 0;
+}
+.content .content-bottom {
+	height: 12px;
+	background: url("img/content-bg.png");
+	background-position: 840px 0;
+}
+.content .content-middle {
+	padding: 20px 30px 20px 30px;
+}
+	
+h1 {
+	font: 26px;
+	font-weight: normal;
+	line-height: 36px;
+	color: #2b8c57;
+	margin-bottom: 10px;
+}
+h2 {
+	font: 18px cursive;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 28px;
+	color: #2b8c57;
+	font-weight: normal;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	
+  
+}
+	
+div.block-1 {
+	background-color: #2b8c57;
+	background-image: url("img/block-1-bg.png");
+    background-repeat: repeat-x;
+	color: white;
+	font: 12px cursive;
+	padding: 20px 30px 20px 30px;
+	font-style: italic;
+}
+div.block-2 {
+	color: white;
+	font: 12px cursive;
+	padding: 20px 30px 20px 30px;
+	background-color: #356149;
+	background-image: url("img/picture-1.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	font-style: italic;
+}
+
+a.button {
+	display:block;
+    width: 121px;
+    height: 38px;
+    text-decoration: none;
+    background-image: url("img/button-1.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+a.button:hover {
+	background-position: 0 -38.25px;
+	/*I think -38.25px is more correct*/
+}
+a.button:active {
+	background-position: 0 -76px;
+}
