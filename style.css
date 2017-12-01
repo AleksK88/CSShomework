@@ -3,7 +3,7 @@ body{
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
     background-position: fixed;
-    font: 13px Arial;
+    font-size: 13px;
     color: #333;
     line-height: 18px;
     font-family: Arial, sans-serif;
@@ -52,7 +52,7 @@ h2 {
 div.block-1 {
 	background-color: #2b8c57;
 	background-image: url("img/block-1-bg.png");
-    background-repeat: repeat-x;
+    	background-repeat: repeat-x;
 	color: #fff;
 	font-size: 12px;
 	padding: 20px 30px 20px 30px;
@@ -70,7 +70,7 @@ div.block-2 {
 }
 
 a.button {
-	display: block;
+    display: block;
     width: 121px;
     height: 38px;
     text-decoration: none;
